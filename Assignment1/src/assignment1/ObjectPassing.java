@@ -27,7 +27,7 @@ public class ObjectPassing {
 
         switch (option) {
 
-            case 1:
+            case 1://This will pass objects as argument
                 Pass_Method person = new Pass_Method("Tajbir", 21);
 
                 Pass_Method person2 = new Pass_Method("Tajbir Ahmmad", 21);
@@ -35,7 +35,7 @@ public class ObjectPassing {
                 System.out.println("Person == Admin? " + person.isPreson(person2));
                 break;
 
-            case 2:
+                case 2://This will pass objects as parameter
                 Pass_Method person3 = new Pass_Method("Monabbir Ahmmad", 20);
 
                 Pass_Method person4 = new Pass_Method(person3);
